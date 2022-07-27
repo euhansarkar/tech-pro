@@ -2,7 +2,7 @@
     background: no-repeat scroll center scroll;
     background-size: cover;
 }
-.carousel-item::before{
+.navigation .carousel-item::before{
     content: "";
     display: block;
     position: absolute;
@@ -12,4 +12,8 @@
     right: 0;
     background: #000;
     opacity: 0.5;
+}
+
+ul li {
+    list-style: none;
 }
