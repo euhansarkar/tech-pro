@@ -11,6 +11,11 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+.startTitle{
+    font-size: 4.063rem; 
+    font-weight: 600;
+}
 .carousel-item{
     background: no-repeat scroll center scroll;
     background-size: cover;
@@ -27,6 +32,11 @@ body{
     opacity: 0.5;
 }
 
+.carouselTextPosition{
+    position: absolute;
+    top: 20%;
+}
+
 ul li {
     list-style: none;
 }
@@ -38,12 +48,22 @@ footer ul li {
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     html{
-        font-size: 62.5%;
+        font-size: 81.25%;
+    }
+    .startTitle{
+        font-size: 3.065rem;
     }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 768px) {
     html{
-        font-size: 50%;
+        font-size: 68.75%;
+    }
+    .startTitle{
+        font-size: 1.97rem;
+    }
+    .carouselTextPosition{
+        position: absolute;
+        top: 5%;
     }
 }
